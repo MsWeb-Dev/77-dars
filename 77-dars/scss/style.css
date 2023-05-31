@@ -1,0 +1,29 @@
+h1 {
+  color: rgba(64, 28, 223, 0.8901960784);
+  text-align: center;
+  font-size: 50px;
+  font-family: cursive;
+}
+
+p {
+  color: rgba(64, 28, 223, 0.8901960784);
+  text-align: center;
+  font-size: 30px;
+  font-family: cursive;
+}
+
+.btn_red {
+  margin-top: 23px;
+  border: 2px solid white;
+  color: 30px;
+  border-radius: 6px;
+  background: #77dc13;
+}
+
+.btn_green {
+  margin-top: 23px;
+  border: 2px solid white;
+  color: 30px;
+  border-radius: 6px;
+  background: #e8a91f;
+}/*# sourceMappingURL=style.css.map */

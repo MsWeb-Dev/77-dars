@@ -1,0 +1,29 @@
+@import "_variable.scss";
+h1{
+    color: $rang;
+    text-align: $align;
+    font-size: $font;
+    font-family: $family;
+}
+p{
+    color: $rang;
+    text-align: $align;
+    font-size: $fontt;
+    font-family: $family;
+}
+
+@mixin btn{
+    margin-top: 23px;
+    border: 2px solid  white;
+    color: $fontt;
+    border-radius: 6px;
+}
+
+.btn_red{
+    @include btn();
+    background: #77dc13;
+}
+.btn_green{
+    @include btn();
+    background: #e8a91f;
+}
